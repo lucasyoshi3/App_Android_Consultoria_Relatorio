@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">APP_Android_Consultoria_Relatorio</string>
+    <string name="menuCliente">Cliente</string>
+    <string name="menuFuncionario">Manter Funcionario</string>
+    <string name="menuRelatorio">Realizar Relatorio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvInicioFragment">AppRelatorio</string>
+    <string name="etTituloRelatorio">Titulo</string>
+    <string name="etResumoRelatorio">Resumo</string>
+    <string name="etTextoRelatorio">Texto</string>
+    <string name="etImagem">Imagem</string>
+    <string name="etLinkRelatorio">Link</string>
+    <string name="rbAnonimatoRelatorio">Autor Anonimato</string>
+    <string name="rbPublicRelatorio">Publico</string>
+    <string name="etCpfAcessoCliente">CPF_Cliente</string>
+
+    <string name="etNome">Nome</string>
+    <string name="etApelido">Apelido</string>
+    <string name="id">Codigo</string>
+    <string name="textoFuncionarioManter">Manter Funcionario</string>
+    <string name="textoClienteListarRelatorio">Listar Relatorio Por Cliente</string>
+
+    <string name="manter">Manter</string>
+    <string name="cpfCliente">Inserir cpf</string>
+    <string name="idRelatorio">Inserir Id do Relatorio</string>
+
+    <string name="btnBuscar">Buscar</string>
+    <string name="listarRelatorio">Listar Relatorio</string>
+
+    <string name="casoPrivado">Caso o relatorio seja privado, inserir o cpf do cliente que pode visualizar</string>
+    <string name="btnManterRelatorio">Realizar Relatorio</string>
+
+    <string name="modificar">Modificar</string>
+    <string name="excluir">Excluir</string>
+    <string name="listarFun">Listar</string>
+    <string name="idFunRelatorio">Id do funcionario</string>
+
+</resources>

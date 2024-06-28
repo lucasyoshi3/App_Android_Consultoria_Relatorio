@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentFuncionario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FuncionarioFragment">
+
+    <EditText
+        android:id="@+id/etNomeFun"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="32dp"
+        android:autofillHints="no"
+        android:ems="10"
+        android:hint="@string/etNome"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/etApelidoFun"
+        app:layout_constraintStart_toStartOf="@+id/etIdFun"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuscarFun" />
+
+    <Button
+        android:id="@+id/btnInserirFuncionario"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="86dp"
+        android:text="@string/manter"
+        app:layout_constraintBottom_toTopOf="@+id/tvListarFun"
+        app:layout_constraintEnd_toStartOf="@+id/btnModificarFun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etApelidoFun" />
+
+    <EditText
+        android:id="@+id/etApelidoFun"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="37dp"
+        android:autofillHints="no"
+        android:ems="10"
+        android:hint="@string/etApelido"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnModificarFun"
+        app:layout_constraintStart_toStartOf="@+id/etNomeFun"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeFun" />
+
+    <EditText
+        android:id="@+id/etIdFun"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="25dp"
+        android:autofillHints="no"
+        android:ems="10"
+        android:hint="@string/id"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBuscarFun"
+        app:layout_constraintEnd_toStartOf="@+id/btnBuscarFun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnBuscarFun" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/textoFuncionarioManter"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnBuscarFun"
+        app:layout_constraintEnd_toEndOf="@+id/btnBuscarFun"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBuscarFun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="17dp"
+        android:text="@string/btnBuscar"
+        app:layout_constraintBottom_toTopOf="@+id/etNomeFun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etIdFun"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnModificarFun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/modificar"
+        app:layout_constraintBottom_toTopOf="@+id/btnExluirFun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnInserirFuncionario"
+        app:layout_constraintTop_toBottomOf="@+id/etApelidoFun" />
+
+    <Button
+        android:id="@+id/btnExluirFun"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="26dp"
+        android:text="@string/excluir"
+        app:layout_constraintBottom_toTopOf="@+id/tvListarFun"
+        app:layout_constraintEnd_toEndOf="@+id/btnInserirFuncionario"
+        app:layout_constraintEnd_toStartOf="@+id/btnListarFun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnModificarFun" />
+
+    <TextView
+        android:id="@+id/tvListarFun"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnListarFun" />
+
+    <Button
+        android:id="@+id/btnListarFun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="449dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/listarFun"
+        app:layout_constraintBottom_toTopOf="@+id/tvListarFun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnExluirFun"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
