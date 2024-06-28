@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">APP_Android_Consultoria_Relatorio</string>
-    <string name="menuCliente">Cliente</string>
-    <string name="menuFuncionario">Manter Funcionario</string>
+    <string name="menuCliente">Visualizar Relatorio</string>
+    <string name="menuFuncionario">Funcionario</string>
     <string name="menuRelatorio">Realizar Relatorio</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
